@@ -39,3 +39,9 @@ footer {
     width: 100%;
 }
 
+
+@media(max-width: 900px){
+    main{
+        grid-template-columns: 1fr;
+    }
+}
