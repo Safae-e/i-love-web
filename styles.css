@@ -52,11 +52,13 @@ ul {
 	gap:10px;
 	overflow-x:auto; /* voegt een scrolbar toe wanneer de inhoud het vak van het element overstroomt*/
 	overscroll-behavior-x:contain; /* zorgt ervoor dat je niet verder kan scrollen dan de laatste section*/
+    scroll-snap-type: x mandatory;
 }
 
 li {
 	width: 500px;
 	flex-shrink:0; /* bepaalt de grootte van de flex items en zorgt ervoor dat deze niet krimpen*/
+    scroll-snap-align: center;
 }
 
 /* @font-face {
