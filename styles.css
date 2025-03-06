@@ -4,6 +4,17 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     /* display: grid */
+    background-image:
+    repeating-linear-gradient(
+        -45deg,
+        #f09,
+        transparent 10%
+    ),
+        repeating-linear-gradient(
+            45deg,
+            #90f,
+            transparent 10%
+        );
 }
 
 header {
@@ -14,10 +25,11 @@ header {
 }
 
 main {
-    /* display: grid; */
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-rows: 1fr; */
     gap: 5px;
+    
 }
 
 section {
@@ -66,3 +78,17 @@ li {
         src: url('EigenPixelFont-Regular.otf') format('woff2');
     } */
 
+
+/* .kleurtje {
+    background-image:
+		repeating-linear-gradient(
+			-45deg,
+			#f09,
+			transparent 10%
+		),
+			repeating-linear-gradient(
+				45deg,
+				#90f,
+				transparent 10%
+			);
+} */
