@@ -1,14 +1,24 @@
 /* Index pagina */
-/* .header-index {
-    background-image: url(./assets/header-img.png);
-    height: 40px;
-} */
+.header-index {
+    background-image: url(./assets/header.png);
+    height: 100px;
+    border: 5px solid #b7b7b7f4;
+    font-size: 24px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-index {
+    background-color: #b7b7b7f4;
+}
 
 .body-index {
     /* background-image: url(./assets/achtergrond-image.png); */
     background-color: #b7b7b7f4;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
 }
 
 .link-card {
@@ -33,10 +43,6 @@
     background-color: #b7b7b7f4;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.152);
 }
-
-
-
-
 
 
 /* LearningJournal pagina */
