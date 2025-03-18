@@ -45,7 +45,7 @@
 }
 
 
-/* LearningJournal pagina */
+/* MARK: Learning Journal */
 .body-learningJournal {
     font-family: 'Open Sans' ,Arial, sans-serif;
     margin: 0;
@@ -77,6 +77,10 @@ main {
     /* grid-template-columns: 1fr 1fr 1fr; */
     /* grid-template-rows: 1fr; */
     gap: 5px;
+
+    @media(max-width: 900px){
+            grid-template-columns: 1fr;
+    }
     
 }
 
@@ -99,11 +103,11 @@ footer {
 }
 
 
-@media(max-width: 900px){
+/* @media(max-width: 900px){
     main{
         grid-template-columns: 1fr;
     }
-}
+} */
 
 
 ul {
