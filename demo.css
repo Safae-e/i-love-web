@@ -1,5 +1,15 @@
 .demo-h1 {
-    background: -webkit-linear-gradient(40deg, purple,rgb(3, 3, 103), black);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: purple;
 }
+
+
+/* Als het apparaat dit supports doe dit, anders niet (Progressive Enhancement) */
+@supports (background-clip: text) {
+    .demo-h1 {
+        background: linear-gradient(40deg, purple,rgb(3, 3, 103), black);
+        background-clip: text;
+        color: transparent;
+    }
+
+}
+

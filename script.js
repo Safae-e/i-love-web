@@ -9,3 +9,20 @@
 //   inputElement.setCustomValidity('Dit veld mag niet leeg zijn hoor..');
 
 // });
+
+let audio = document.querySelector('audio')
+let playButton = document.querySelector('.play-button')
+
+playButton.addEventListener('click', function() {
+
+    if (audio.paused) {
+        // playButton.classList.add('')
+        audio.play()
+    } else {
+        // playButton.classList.add('')
+        audio.pause()
+    }
+})
+
+// audio.hidden = true;
+// playButton.hidden = false;
