@@ -1,0 +1,26 @@
+{
+  "name": "i-love-web",
+  "version": "2.0.0",
+  "description": "Mijn I love Web website",
+  "main": "server.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Safae-e/i-love-web.git"
+  },
+  "author": "Safae Eljaouhari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Safae-e/i-love-web/issues"
+  },
+  "homepage": "https://github.com/Safae-e/i-love-web#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
