@@ -1,6 +1,6 @@
 /* Index pagina */
 .header-index {
-    background-image: url(./assets/header.png);
+    background-image: url(../assets/header.png);
     height: 100px;
     border: 5px solid #b7b7b7f4;
     font-size: 24px;
@@ -22,7 +22,7 @@
 }
 
 .link-card {
-    background-image: url(./assets/achtergrond\ wit.png);
+    background-image: url(../assets/achtergrond\ wit.png);
     width:250px;
     height: 280px;
     box-shadow: inset 0px 10px 20px 6px #ECE1B7, 0px 0px 15px 0px rgba(0, 0, 0, 0.152);
@@ -65,7 +65,7 @@
         );
 }
 
-header {
+.header-lj-html {
     background: #0529aa;
     color: rgb(247, 250, 248);
     padding: 10px 20px;
@@ -110,14 +110,14 @@ footer {
 } */
 
 
-ul {
+/* ul {
 	list-style-type:none;
 	display:flex;
 	gap:10px;
 	overflow-x:auto; /* voegt een scrolbar toe wanneer de inhoud het vak van het element overstroomt*/
-	overscroll-behavior-x:contain; /* zorgt ervoor dat je niet verder kan scrollen dan de laatste section*/
-    scroll-snap-type: x mandatory;
-}
+	/* overscroll-behavior-x:contain; zorgt ervoor dat je niet verder kan scrollen dan de laatste section */
+    /* scroll-snap-type: x mandatory; */
+/* }  */
 
 li {
 	width: 500px;

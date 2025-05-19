@@ -37,7 +37,7 @@ app.get('/Learning-Journal', async function(request, response){
     })
 
 app.get('/Learning-Journal/:slug', async function (request, response) {
-    console.log(request.params.slug)
+    // console.log(request.params.slug)
 
     const fileContents = await readFile('content/' + request.params.slug + '.md', { encoding: 'utf8' })
 

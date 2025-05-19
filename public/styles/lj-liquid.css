@@ -1,0 +1,82 @@
+/* MARK: learnig Journal */
+.header-LJ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(9, 230, 142);
+}
+
+.ul-LJ {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 10px;
+    column-count: 1; /* Aantal kolommen */
+    gap: 1.5em; 
+        @media (min-width: 800px) {
+            column-count: 2;   
+        }
+
+         @media (min-width: 1250px) {
+            column-count: 3;   
+        }
+       
+}
+
+.li-LJ {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    width:350px;
+    margin-top: 20px;
+    &:hover {
+        background-color: rgba(134, 229, 158, 0.779);
+        cursor: pointer;
+        box-shadow:  0 4px 12px rgba(242, 223, 98, 0.678);;
+    }
+
+
+}
+
+.a-LJ {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem;
+  display: block;
+}
+
+/* MARK: artikel pagina */
+
+.header-artikel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(167, 228, 149);
+}
+
+.artikel-file {
+    border: 2px solid black;
+    max-width: 600px;
+    margin: 2rem auto;     
+    padding: 1rem;        
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+
+}
+
+.a-artikel {
+    text-decoration: none; 
+    padding: 0.75rem 1.5rem;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.275);
+    &:hover {
+    background-color: #81ce84;
+  }
+}
