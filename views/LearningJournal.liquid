@@ -15,7 +15,7 @@
             {% for file in files %}
 
                 <li class="li-LJ">    
-                    <a class="a-LJ" viewTransitionName="detail-transition" href="/Learning-Journal/{{ file | slice:0,-3 }}">{{ file | slice:0,-3 }}</a>
+                    <a class="a-LJ"  href="/Learning-Journal/{{ file | slice:0,-3 }}">{{ file | slice:0,-3 }}</a>
                 </li>          
             
             {% endfor %}

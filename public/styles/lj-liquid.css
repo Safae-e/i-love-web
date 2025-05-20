@@ -1,3 +1,34 @@
+/* View-transitions */
+
+@view-transition {
+    navigation: auto;
+}
+
+/* ::view-transition-group(*) = wordt bij alle animaties uitgevoerd. */
+::view-transition-group(root) {
+    animation-duration: 1s; 
+}
+
+::view-transition-old(root) {
+    animation-name: scale-out;
+}
+
+::view-transition-new(root) {
+    animation-name: scale-in;
+}
+
+@keyframes scale-in {
+    from {
+        scale: 0;
+    }
+}
+
+@keyframes scale-out {
+    to {
+        scale: 0;
+    }
+}
+
 /* MARK: learnig Journal */
 .header-LJ {
     display: flex;
@@ -66,7 +97,6 @@
     padding: 1rem;        
     box-sizing: border-box;
     border-radius: 0.5rem;
-
 }
 
 .a-artikel {
